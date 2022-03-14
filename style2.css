@@ -1,0 +1,303 @@
+* {
+    font-family: 'Poppins';
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+/* dekstop device */
+/* navbar */
+.navbar {
+    padding: 30px;
+    background-color: white;
+}
+
+.tombol {
+    margin: 0 5px 0 5px;
+    width: 100px;
+}
+
+/* hero 1 */
+.hero1 {
+    margin-top: 140px;
+}
+
+.judul1 {
+    font-size: 4rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.subjudul1 {
+    margin: 100px 0 0 0;
+    font-size: 24px;
+    font-family: 'Playfair Display  ';
+}
+
+.gambar3,
+.gambar2,
+.gambar1 {
+    width: 100%;
+}
+
+.dropdown-toggle,
+.dropdown-item,
+.tombol2 {
+    width: 80%;
+    margin: 10px 10px 10px 0;
+}
+
+.tombol3 {
+    width: 38.5%;
+    color: white;
+}
+
+
+/* hero 2 */
+.hero2 {
+    margin-top: 70px;
+}
+
+.judul2 {
+    margin: 70px 0 0 0;
+    font-size: 3rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.subjudul2 {
+    margin: 80px 0 0 0;
+    font-size: 1rem;
+    opacity: 60%;
+}
+
+
+/* hero 3 */
+.judul3 {
+    font-size: 2.25rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin: 150px 0 10px 45px;
+}
+
+.subjudul3 {
+    text-align: end;
+    margin: 150px 33px 10px 0;
+    float: right;
+    color: #FFC107;
+}
+
+.foto-des {
+    width: 70%;
+    border-radius: 5%;
+}
+
+.jdl {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.subjdl {
+    opacity: 50%;
+    margin: 0 0 60px 0;
+}
+
+.featured {
+    margin-bottom: 30px;
+}
+
+/* hero 4 */
+.hero4 {
+    margin-top: 70px;
+}
+
+/* hero 5 */
+.hero5 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.judul5 {
+    font-size: 2.25rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.star {
+    margin: 100px 0 40px 0;
+}
+
+.name {
+    font-size: 1.375rem;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+}
+
+.paragraf {
+    font-size: 1.063rem;
+    font-family: 'Mulish';
+    opacity: 80%;
+}
+
+.paragraf2 {
+    font-size: 0.875rem;
+    font-family: 'Inter';
+}
+
+.orang {
+    width: 60%;
+    border-radius: 5%;
+}
+
+/* hero 6 */
+.hero6 {
+    margin: 0 0 150px 0;
+}
+
+.card {
+    width: 200px;
+}
+
+.stories {
+    height: 220px;
+    border-radius: 5% 5% 0 0;
+    display: inline-table;
+}
+
+.judulstories {
+    font-size: 1rem;
+    font-family: 'Poppins';
+    text-align: start;
+}
+
+.card-text {
+    opacity: 80%;
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: start;
+}
+
+.read {
+    font-size: 13px;
+    font-family: "Poppins";
+    color: #FFC107;
+    text-decoration: none;
+}
+
+/* footer */
+.text {
+    font-family: 'Mulish';
+    font-size: 18px;
+}
+
+.text2 {
+    font-family: 'Mulish';
+    font-size: 17px;
+}
+
+
+.list {
+    font-size: 18px;
+    font-family: 'Mulish';
+    margin-left: 30px;
+}
+
+.title-footer {
+    font-size: 19px;
+    font-family: 'Mulish';
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.gambar {
+    margin: 10px 20px 20px 20px;
+}
+
+
+
+/* mobile device */
+@media screen and (max-width:990px) {
+
+    /* navbar */
+    .tombol {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+
+    /* hero 1 */
+    .dropdown-item {
+        width: 100%;
+    }
+
+    .gambar1 {
+        margin-top: -10px;
+    }
+
+    /* hero 2 */
+    .gambar2 {
+        margin: 60px 0 30px 0;
+    }
+
+    .judul2 {
+        margin: -10px 0 50px 0;
+    }
+
+    .subjudul2 {
+        margin-top: -10px;
+    }
+
+    /* hero 3 */
+    .featured {
+        margin: -60px 0 30px 0;
+    }
+
+    /* hero 4 */
+    .gambar3 {
+        margin: -10px 0 0 0;
+    }
+
+    /* hero 5 */
+    .judul5 {
+        margin-bottom: 230px;
+    }
+
+    .star {
+        margin: -350px 0 0 0;
+    }
+
+    .paragraf {
+        margin: -150px 0 0 0;
+    }
+
+
+    /* hero 6 */
+    .hero6 {
+        margin-bottom: 40px;
+    }
+
+
+    /* footer */
+    .title-footer {
+        margin-left: 20px;
+    }
+
+    .list {
+        margin-left: 20px;
+    }
+
+
+    .section {
+        margin-bottom: 30px;
+    }
+
+    .gambar {
+        margin: 5px 5px 10px 5px;
+    }
+}
